@@ -1,5 +1,7 @@
 import { h, icon, clear } from './dom.js';
 import { INVESTIGATIONS } from '../data/investigations.js';
+import { loadVideos } from './data.js';
+import { videoPanel } from './video.js';
 
 const norm = s => String(s).toLowerCase();
 const SHORT = { fbc: 'Blood count', inflam: 'Inflammatory', chem: 'Chemistry', gas: 'Blood gases', liver: 'Liver', coag: 'Clotting', urine: 'Urine', csf: 'CSF', stool: 'Gut', endo: 'Endocrine', micro: 'Infection', immuno: 'Immunology', ecg: 'ECG', cxr: 'Chest X-ray', abd: 'Abdo, renal & bone', neo: 'Newborn' };
@@ -24,10 +26,12 @@ function listBlock(b, q) {
   return h('section', { class: 'iblock' }, h('h3', null, b.title), h('ul', { class: 'bul' }, items.map(i => h('li', null, i))));
 }
 
-export function investigationsView(outlet, which) {
+export async function investigationsView(outlet, which, cleanups = []) {
   let q = '';
   const cat = INVESTIGATIONS.find(c => c.id === which) || INVESTIGATIONS[0];
   const body = h('div', { class: 'ibody', 'aria-live': 'polite' });
+  const vids = (await loadVideos())['inv-' + cat.id] || [];
+  let vp = null;
   const search = h('input', { type: 'search', id: 'isearch', placeholder: 'Search every table: e.g. "pyloric", "potassium", "target sign"', 'aria-label': 'Search investigations', autocomplete: 'off' });
 
   function render() {
@@ -39,9 +43,11 @@ export function investigationsView(outlet, which) {
       if (!blocks.length) return;
       shown += blocks.length;
       body.append(h('section', { class: 'icat' },
-        h('header', { class: 'ihead' }, h('h2', null, icon(c.icon), c.title), q ? h('a', { class: 'link', href: '#/investigations/' + c.id }, 'Open section') : h('p', { class: 'muted' }, c.blurb)),
+        h('header', { class: 'ihead' }, h('h2', null, icon(c.icon), c.title), q ? h('a', { class: 'link', href: '#/investigations/' + c.id }, 'Open section') : h('div', { class: 'row' }, h('p', { class: 'muted' }, c.blurb), vids.length ? h('button', { type: 'button', class: 'btn ghost sm', onclick: () => document.getElementById('videos')?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }) }, icon('play-circle'), `${vids.length} videos`) : null)),
         ...blocks));
     });
+    if (vp) { vp.destroy(); vp = null; }
+    if (!q) { vp = videoPanel({ id: 'inv-' + cat.id, title: cat.title + ' investigations' }, vids); body.append(vp); }
     if (!shown) body.append(h('div', { class: 'empty small' }, icon('magnifying-glass'), h('p', null, 'No match. Try another term, such as a condition, test or sign.')));
   }
 
@@ -55,5 +61,6 @@ export function investigationsView(outlet, which) {
       h('p', { class: 'lede' }, 'What is normal, what is abnormal, and what to do next. Ranges are approximate: your own laboratory ranges and local guidelines always take priority.')),
     h('div', { class: 'isearch' }, icon('magnifying-glass'), search),
     tabs, body));
+  cleanups.push(() => vp?.destroy());
   render();
 }

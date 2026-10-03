@@ -26,7 +26,7 @@ const routes = [
   [/^\/practise(?:\/(\w+))?$/, m => practisePage(m)],
   [/^\/cards$/, () => cardsPage()],
   [/^\/tools(?:\/(\w+))?$/, w => import('./tools.js').then(m => m.toolsView(outlet, w || 'weight'))],
-  [/^\/investigations(?:\/(\w+))?$/, w => import('./investigations.js').then(m => m.investigationsView(outlet, w))],
+  [/^\/investigations(?:\/(\w+))?$/, w => import('./investigations.js').then(m => m.investigationsView(outlet, w, cleanups))],
   [/^\/reference(?:\/(\w+))?$/, w => import('./reference.js').then(m => m.referenceView(outlet, w || 'vitals'))],
   [/^\/saved$/, () => savedPage()],
   [/^\/about$/, () => aboutPage()],

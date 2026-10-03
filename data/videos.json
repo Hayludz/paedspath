@@ -3456,5 +3456,529 @@
    "channel": "Osmosis from Elsevier",
    "mins": 4
   }
+ ],
+ "inv-fbc": [
+  {
+   "id": "36fmnrEi_LM",
+   "title": "Understanding Complete Blood Counts by S. Rosen, L. Corr, L. DelSignore | OPENPediatrics",
+   "channel": "OPENPediatrics",
+   "mins": 8
+  },
+  {
+   "id": "JVmPu8o2ycc",
+   "title": "Full Blood Count (FBC/CBC) interpretation | COMPLETE GUIDE IN 7 MINUTES",
+   "channel": "Medicine Made Simple",
+   "mins": 7
+  },
+  {
+   "id": "Vh1LZlLCfkU",
+   "title": "Anaemia (anemia) - classification (microcytic, normocytic and macrocytic) and pathophysiology",
+   "channel": "Armando Hasudungan",
+   "mins": 10
+  },
+  {
+   "id": "E5CusOT6kEM",
+   "title": "Anemia: Microcytic, Normocytic & Macrocytic Type – Hematology | Lecturio",
+   "channel": "Lecturio Medical",
+   "mins": 9
+  },
+  {
+   "id": "Y2Op6kWIyJQ",
+   "title": "Anemia: Lesson 4 - Clues from the blood smear",
+   "channel": "Strong Medicine",
+   "mins": 5
+  },
+  {
+   "id": "c1GiEpMeCio",
+   "title": "Normal Blood Cell Morphology (neutrophil lymphocyte eosinophil erythrocyte platelet)Peripheral Smear",
+   "channel": "Jerad Gardner, MD",
+   "mins": 9
+  }
+ ],
+ "inv-inflam": [
+  {
+   "id": "JspiAOXApvo",
+   "title": "Role of CRP, Procalcitonin & Ferritin in office practice by Dr. Karthik Narayanan",
+   "channel": "Rainbow Children’s Hospital & BirthRight",
+   "mins": 42
+  },
+  {
+   "id": "FHHCG19eCGg",
+   "title": "Procalcitonin in 5 min",
+   "channel": "Clinical Problem Solvers",
+   "mins": 5
+  },
+  {
+   "id": "_5WCip4C6N8",
+   "title": "TAPICON 2021-Inflammatory Markers in Today's Era",
+   "channel": "Thane Academy of Pediatrics (TAP)",
+   "mins": 30
+  },
+  {
+   "id": "kFp55nx2NUQ",
+   "title": "Fever: The Body's Natural Response to Infection",
+   "channel": "Children's Healthcare of Atlanta",
+   "mins": 3
+  }
+ ],
+ "inv-chem": [
+  {
+   "id": "-w-FhctMvD0",
+   "title": "Hyponatraemia (Hyponatremia) - classification, causes, pathophysiology, treatment",
+   "channel": "Armando Hasudungan",
+   "mins": 31
+  },
+  {
+   "id": "8y64XmyiZcs",
+   "title": "Understanding Hyponatraemia",
+   "channel": "Zero To Finals",
+   "mins": 16
+  },
+  {
+   "id": "bZASiB7e5hw",
+   "title": "HYPERKALEMIA, Causes, Signs and Symptoms, Diagnosis and Treatment.",
+   "channel": "Medical Centric Podcast",
+   "mins": 5
+  },
+  {
+   "id": "wrij_7e5OrQ",
+   "title": "Understanding Hyperkalaemia (High Potassium)",
+   "channel": "Zero To Finals",
+   "mins": 7
+  },
+  {
+   "id": "Srm2GH1dusg",
+   "title": "Parathyroid disorders and calcium balance: Pathology Review",
+   "channel": "Osmosis from Elsevier",
+   "mins": 14
+  },
+  {
+   "id": "9hDXHXrbKdI",
+   "title": "Familial Hypocalciuric Hypercalcemia + other calcium sensing disorders  - pathophysiology, treatment",
+   "channel": "Armando Hasudungan",
+   "mins": 14
+  }
+ ],
+ "inv-gas": [
+  {
+   "id": "w3nsxx6AcdA",
+   "title": "Acidosis and Alkalosis MADE EASY",
+   "channel": "Dr Matt & Dr Mike",
+   "mins": 5
+  },
+  {
+   "id": "gPHLeHUZE3k",
+   "title": "Understanding Arterial Blood Gases",
+   "channel": "Zero To Finals",
+   "mins": 11
+  },
+  {
+   "id": "0BSv4iN8T2E",
+   "title": "How to take an arterial blood gas (ABG) - OSCE guide | UKMLA | CPSA | PLAB 2",
+   "channel": "Geeky Medics",
+   "mins": 3
+  },
+  {
+   "id": "K1qReVoragU",
+   "title": "Arterial Blood Gases (ABGs)| Interpretation",
+   "channel": "Dr Matt & Dr Mike",
+   "mins": 22
+  }
+ ],
+ "inv-liver": [
+  {
+   "id": "rQ21vJmTDz4",
+   "title": "Neonatal Jaundice by L. Veit | OPENPediatrics",
+   "channel": "OPENPediatrics",
+   "mins": 15
+  },
+  {
+   "id": "gIACp5js4MU",
+   "title": "Jaundice - causes, treatment & pathology",
+   "channel": "Osmosis from Elsevier",
+   "mins": 11
+  },
+  {
+   "id": "57mvZvV3zpY",
+   "title": "Liver Function Test Interpretation (LFTs) | Liver Enzymes Remastered (Bilirubin, GGT, Alk Phos)",
+   "channel": "MedCram - Medical Lectures Explained CLEARLY",
+   "mins": 10
+  },
+  {
+   "id": "i2PfjEks4GQ",
+   "title": "Liver Function Tests (LFTs), Animation",
+   "channel": "Alila Medical Media",
+   "mins": 3
+  }
+ ],
+ "inv-coag": [
+  {
+   "id": "SGzp9wqeu84",
+   "title": "Hematology | Hemostasis: Coagulation Cascade",
+   "channel": "Ninja Nerd",
+   "mins": 43
+  },
+  {
+   "id": "buqYpkR5hKc",
+   "title": "Coagulation Cascade and Fibrinolysis - clotting factors, regulation and control mechanism",
+   "channel": "Armando Hasudungan",
+   "mins": 10
+  },
+  {
+   "id": "YClJciaGe6s",
+   "title": "Approach to bleeding disorders - causes, pathophysiology and investigations",
+   "channel": "Armando Hasudungan",
+   "mins": 13
+  },
+  {
+   "id": "PgtOLf9hnJs",
+   "title": "Bleeding Disorders",
+   "channel": "Dr Matt & Dr Mike",
+   "mins": 35
+  }
+ ],
+ "inv-urine": [
+  {
+   "id": "xUP0tJPm4V4",
+   "title": "Interpretation of the Urinalysis (Part 1) - Introduction and Inspection",
+   "channel": "Strong Medicine",
+   "mins": 6
+  },
+  {
+   "id": "6PTB254Kkbk",
+   "title": "Urinalysis Explained",
+   "channel": "Dr Matt & Dr Mike",
+   "mins": 17
+  },
+  {
+   "id": "1vIHTAnBmuU",
+   "title": "Urinary Tract Infection - Overview (signs and symptoms, pathophysiology, causes and treatment)",
+   "channel": "Armando Hasudungan",
+   "mins": 13
+  },
+  {
+   "id": "gGS7tddt1XA",
+   "title": "Understanding Urinary Tract Infections",
+   "channel": "Zero To Finals",
+   "mins": 9
+  },
+  {
+   "id": "uZfRLuAgvYw",
+   "title": "Causes of Haematuria",
+   "channel": "Armando Hasudungan",
+   "mins": 8
+  },
+  {
+   "id": "aK7MEMcYZR0",
+   "title": "What is Proteinuria and how to diagnose it? | Lecturio Pediatrics",
+   "channel": "Lecturio Medical",
+   "mins": 5
+  }
+ ],
+ "inv-csf": [
+  {
+   "id": "gIHUJs2eTHA",
+   "title": "Meningitis - causes, symptoms, diagnosis, treatment, pathology",
+   "channel": "Osmosis from Elsevier",
+   "mins": 12
+  },
+  {
+   "id": "Gzl2szuYMqA",
+   "title": "Normal C.S.F Composition | Changes in Meningitis | Dr Najeeb",
+   "channel": "Dr. Najeeb Lectures",
+   "mins": 18
+  },
+  {
+   "id": "RpzqlmzVLp8",
+   "title": "Lumbar Puncture:  Everything You Need to Know",
+   "channel": "Medical Centric Podcast",
+   "mins": 4
+  },
+  {
+   "id": "oiQeibWqSKk",
+   "title": "Lumbar Puncture | Competency: PE 30.23 | Pediatrics",
+   "channel": "Learning Pediatrics",
+   "mins": 19
+  }
+ ],
+ "inv-stool": [
+  {
+   "id": "xv3o0J38AK8",
+   "title": "Caring for the \"Total Child\" with IBD",
+   "channel": "NewYork-Presbyterian Hospital",
+   "mins": 3
+  },
+  {
+   "id": "bxX3QEGRJgE",
+   "title": "Fran McNicol explains Faecal Calprotectin",
+   "channel": "Cheshire and Merseyside Cancer Alliance",
+   "mins": 3
+  },
+  {
+   "id": "Hxd0msD954I",
+   "title": "Coeliac (Celiac) Disease - Overview (signs and symptoms, pathophysiology, diagnosis, treatment)",
+   "channel": "Armando Hasudungan",
+   "mins": 14
+  },
+  {
+   "id": "ViJhwkjkt3g",
+   "title": "Understanding Coeliac Disease",
+   "channel": "Zero To Finals",
+   "mins": 8
+  },
+  {
+   "id": "kx1UgaqpYkc",
+   "title": "Malabsorption | Clinical Medicine",
+   "channel": "Ninja Nerd",
+   "mins": 49
+  },
+  {
+   "id": "54out-Rlor4",
+   "title": "Malabsorption Syndromes",
+   "channel": "Dirty Medicine",
+   "mins": 19
+  }
+ ],
+ "inv-endo": [
+  {
+   "id": "Zb4ZZG2BPZw",
+   "title": "Thyroid Hormones and Thyroid Function Tests",
+   "channel": "Strong Medicine",
+   "mins": 23
+  },
+  {
+   "id": "IdfyfyWaexQ",
+   "title": "Understanding Thyroid Function Tests",
+   "channel": "Zero To Finals",
+   "mins": 11
+  },
+  {
+   "id": "bdfk3WmsF4E",
+   "title": "Diabetes and Hypoglycaemia (Low blood sugar) | Symptoms, management and treatment",
+   "channel": "University College London Hospitals NHS Foundation Trust",
+   "mins": 5
+  },
+  {
+   "id": "LRQXRdwXjBA",
+   "title": "2022-01-18 - P Shah - Hypoglycaemia in children",
+   "channel": "London School of Paediatrics",
+   "mins": 44
+  },
+  {
+   "id": "-B-RVybvffU",
+   "title": "Diabetes mellitus (type 1, type 2) & diabetic ketoacidosis (DKA)",
+   "channel": "Osmosis from Elsevier",
+   "mins": 19
+  },
+  {
+   "id": "R3VYmSA43cE",
+   "title": "Understanding Ketones and Diabetic Ketoacidosis: Type 1 Diabetes Education from Phoenix Children's",
+   "channel": "Phoenix Children’s",
+   "mins": 4
+  }
+ ],
+ "inv-micro": [
+  {
+   "id": "6P6zBHpWiGA",
+   "title": "Tuberculosis - causes, symptoms, diagnosis, treatment, pathology",
+   "channel": "Osmosis from Elsevier",
+   "mins": 12
+  },
+  {
+   "id": "xNZPblw1izw",
+   "title": "Updates on the prevention, diagnosis and management of tuberculosis in children",
+   "channel": "Stanford CME",
+   "mins": 31
+  },
+  {
+   "id": "OgQ6avlpBRY",
+   "title": "Septic (Sepsis) Pathway",
+   "channel": "Armando Hasudungan",
+   "mins": 7
+  },
+  {
+   "id": "ZGEu3g5wcYc",
+   "title": "Pediatric Sepsis: screening, diagnosis, antimicrobial therapy",
+   "channel": "PICUniversity",
+   "mins": 19
+  },
+  {
+   "id": "F0LBU1VHdlA",
+   "title": "How to use a Malaria Rapid Diagnostic Test",
+   "channel": "National Institute for Communicable Diseases",
+   "mins": 9
+  },
+  {
+   "id": "KNqnH_p0ZCE",
+   "title": "Malaria Antigen Rapid Test",
+   "channel": "knust oer",
+   "mins": 6
+  }
+ ],
+ "inv-immuno": [
+  {
+   "id": "t-enu8jWvc8",
+   "title": "Anti-SSA (Anti-Ro) Autoantibodies - Sjögren Syndrome - Rheumatology and Immunology",
+   "channel": "Medicosis Perfectionalis",
+   "mins": 10
+  },
+  {
+   "id": "xgrFWrT6JB0",
+   "title": "Rheumatology Lab Testing: Lurie Children's Dr Pooja N. Patel",
+   "channel": "Lurie Children's Physician Services",
+   "mins": 25
+  },
+  {
+   "id": "OPN5d8RMRrk",
+   "title": "A child's guide to hospital: Skin Prick Test",
+   "channel": "The Royal Children's Hospital Melbourne",
+   "mins": 5
+  },
+  {
+   "id": "ktq145on-VU",
+   "title": "Skin Prick Test (Allergy Test) - John Hunter Children's Hospital",
+   "channel": "HNEkidshealth",
+   "mins": 4
+  },
+  {
+   "id": "3cxubDl3PCU",
+   "title": "My child has a sweat test to diagnose or rule out Cystic Fibrosis",
+   "channel": "What? Why? Children in Hospital",
+   "mins": 5
+  },
+  {
+   "id": "yd-HmBYpvK4",
+   "title": "CYSTIC FIBROSIS, Causes, Signs and Symptoms, Diagnosis and Treatment.",
+   "channel": "Medical Centric Podcast",
+   "mins": 6
+  }
+ ],
+ "inv-cxr": [
+  {
+   "id": "e39pLXGjNbA",
+   "title": "Chest X-ray Interpretation | How to Read a CXR | OSCE Guide | UKMLA | CPSA | PLAB 2",
+   "channel": "Geeky Medics",
+   "mins": 24
+  },
+  {
+   "id": "taImIMRBLFk",
+   "title": "Cases in Radiology: Episode 3 (pediatric, chest x-ray)",
+   "channel": "Radiology Channel",
+   "mins": 3
+  },
+  {
+   "id": "yEK34mTThNE",
+   "title": "Neonatal Radiography part 1: Nomal Findings and the Basics",
+   "channel": "Radiology Residency UM/JMH",
+   "mins": 11
+  },
+  {
+   "id": "hwITt1bynf0",
+   "title": "A-B-C-D-Es of reading neonatal Chest X-Rays!!!",
+   "channel": "Tala Talks NICU",
+   "mins": 20
+  }
+ ],
+ "inv-abd": [
+  {
+   "id": "SWd7onzmAPo",
+   "title": "Abdominal X-Ray: Introduction and Approach",
+   "channel": "Navigating Radiology",
+   "mins": 15
+  },
+  {
+   "id": "EslLJ9WUZCg",
+   "title": "ABDO X - approach to abdominal x-ray interpretation",
+   "channel": "Radiology Channel",
+   "mins": 3
+  },
+  {
+   "id": "KvBvMiSdL9k",
+   "title": "Renal functional imaging",
+   "channel": "Radiology Video - radiology made esay",
+   "mins": 37
+  },
+  {
+   "id": "TlDXrijiLjo",
+   "title": "My child is going for a Renal Scan (Nuclear Medicine test) in hospital",
+   "channel": "What? Why? Children in Hospital",
+   "mins": 6
+  },
+  {
+   "id": "XmcG6cQCb38",
+   "title": "X-Ray wrist in rickets (Part 2/3) | Rickets | Pediatrics",
+   "channel": "Learning Pediatrics",
+   "mins": 4
+  },
+  {
+   "id": "sBar5TMhrBs",
+   "title": "Rickets, Causes, Signs and Symptoms, Diagnosis and Treatment.",
+   "channel": "Medical Centric Podcast",
+   "mins": 5
+  }
+ ],
+ "inv-neo": [
+  {
+   "id": "-wsLjj78DXY",
+   "title": "Pulse Oximetry by T. Wolbrink | OPENPediatrics",
+   "channel": "OPENPediatrics",
+   "mins": 16
+  },
+  {
+   "id": "QziC0O0TGxI",
+   "title": "Critical Congenital Heart Defects: Updated Newborn Screening Guidelines for Pediatricians",
+   "channel": "American Academy of Pediatrics",
+   "mins": 12
+  },
+  {
+   "id": "cracmPo3iYo",
+   "title": "Newborn Exam by N. Gold | OPENPediatrics",
+   "channel": "OPENPediatrics",
+   "mins": 17
+  },
+  {
+   "id": "LNXTLLoYNGg",
+   "title": "Fundal Reflex (a.k.a. Red Reflex) Assessment in Children - OSCE Guide | UKMLA | CPSA | PLAB 2",
+   "channel": "Geeky Medics",
+   "mins": 4
+  }
+ ],
+ "inv-ecg": [
+  {
+   "id": "t95Rjxn1X8w",
+   "title": "Pediatric Cardiology-I",
+   "channel": "Pediatric Board A Last-Minute Review",
+   "mins": 24
+  },
+  {
+   "id": "jVqRUkVqC5o",
+   "title": "Approach to Pediatric ECGs (Part 1/2)",
+   "channel": "pedscases",
+   "mins": 22
+  },
+  {
+   "id": "PNQmm_fL9JM",
+   "title": "ECG Lead Placement on an Infant",
+   "channel": "PediatricsURMC",
+   "mins": 3
+  },
+  {
+   "id": "yHbkSi_5IAE",
+   "title": "Introduction to ECGs by D. Mah | OPENPediatrics",
+   "channel": "OPENPediatrics",
+   "mins": 17
+  },
+  {
+   "id": "f5xC5ofq4aE",
+   "title": "Understanding Supraventricular Tachycardia (SVT)",
+   "channel": "Zero To Finals",
+   "mins": 14
+  },
+  {
+   "id": "U3G7sS4jGsw",
+   "title": "Rate and Rhythm | Supraventricular Tachycardia (SVT) and Wolff-Parkinson-White (WPW) Syndrome",
+   "channel": "Ninja Nerd",
+   "mins": 20
+  }
  ]
 }

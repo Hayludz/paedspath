@@ -10,7 +10,7 @@ No build step, no dependencies: plain HTML, CSS and ES modules. Deploys as a sta
 - **Practice**: 5 single-best-answer questions per topic; mixed question bank by unit; "missed only" mode.
 - **Flashcards**: 8 per topic with Leitner spaced repetition.
 - **Tools**: weight/airway estimates, fluids, common doses, resuscitation drugs, WHO dehydration plans, GCS, Apgar, corrected age, BMI/BSA.
-- **Investigations**: 16 categories, 34 tables of normal values by age and abnormal patterns (FBC, film, chemistry, blood gases, liver, clotting, urine, CSF, gut, endocrine, infection, immunology, ECG, chest and abdominal imaging, newborn screens), searchable.
+- **Investigations**: 16 categories, 34 tables of normal values by age and abnormal patterns (FBC, film, chemistry, blood gases, liver, clotting, urine, CSF, gut, endocrine, infection, immunology, ECG, chest and abdominal imaging, newborn screens), searchable, each with its own verified video playlist.
 - **Reference**: vital signs, milestones, growth rules, WHO vaccine schedule, lab values.
 - Search (`/` or `Ctrl K`), progress tracking, streaks, notes, bookmarks, backup/restore, light and dark themes.
 
