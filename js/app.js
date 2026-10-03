@@ -26,6 +26,7 @@ const routes = [
   [/^\/practise(?:\/(\w+))?$/, m => practisePage(m)],
   [/^\/cards$/, () => cardsPage()],
   [/^\/tools(?:\/(\w+))?$/, w => import('./tools.js').then(m => m.toolsView(outlet, w || 'weight'))],
+  [/^\/investigations(?:\/(\w+))?$/, w => import('./investigations.js').then(m => m.investigationsView(outlet, w))],
   [/^\/reference(?:\/(\w+))?$/, w => import('./reference.js').then(m => m.referenceView(outlet, w || 'vitals'))],
   [/^\/saved$/, () => savedPage()],
   [/^\/about$/, () => aboutPage()],
@@ -96,6 +97,7 @@ async function dashboard() {
     last && topicMeta[last] ? h('a', { class: 'act primary', href: '#/topic/' + last }, icon('play-circle'), h('span', null, h('small', null, 'Continue'), topicMeta[last].title)) : h('a', { class: 'act primary', href: '#/topic/' + UNITS[0].topics[0][0] }, icon('play-circle'), h('span', null, h('small', null, 'Start here'), UNITS[0].topics[0][1])),
     h('a', { class: 'act', href: '#/cards' }, icon('cards'), h('span', null, h('small', null, 'Daily review'), h('span', { id: 'due-t' }, 'Spaced flashcards'))),
     h('a', { class: 'act', href: '#/practise' + (missed ? '/missed' : '') }, icon('list-checks'), h('span', null, h('small', null, missed ? 'Weak spots' : 'Practise'), missed ? `${missed} missed questions` : 'Mixed question bank')),
+    h('a', { class: 'act', href: '#/investigations' }, icon('microscope'), h('span', null, h('small', null, 'Results explained'), 'Investigations')),
     h('a', { class: 'act', href: '#/tools' }, icon('calculator'), h('span', null, h('small', null, 'At the bedside'), 'Calculators & doses')));
 
   outlet.append(h('div', { class: 'page' }, hero, actions,
